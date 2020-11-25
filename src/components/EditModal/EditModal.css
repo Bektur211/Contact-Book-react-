@@ -1,0 +1,43 @@
+.main-modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.inner-modal{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin: 150px auto ;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.save-btn{
+position: absolute;
+bottom: 10px;
+right: 10px;
+padding: 5px;
+border-radius: 3px;
+background-color: gray;
+color: #Fff;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.inner-modal input{
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+}
+

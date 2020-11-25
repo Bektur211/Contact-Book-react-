@@ -1,0 +1,30 @@
+.list{
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    width: 350px;
+    text-align: center;
+}
+
+.list__li{
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    width: 300px;
+    margin: auto;
+}
+
+.list button{
+    background-color: gray;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: end;
+}
+
+.list button:hover{
+    color: #000;
+}
