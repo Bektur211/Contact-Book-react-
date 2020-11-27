@@ -18,9 +18,8 @@ const App = (props) => {
     }
 
     function delItem(id){  
-       let newArr = [...arr]
-       newArr.map((item) => {
-           newArr.splice(item.index,1)
+       let newArr = arr.filter(item => {
+           return item.id !== id
        })
        setArr(newArr)
     }
